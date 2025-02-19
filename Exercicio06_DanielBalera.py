@@ -11,3 +11,5 @@ if qtde_voto > qtde_eleitor/2:
     print('Não haverá um segundo turno.')
 else:
     print('Haverá um segundo turno')
+
+print('Daniel Balera')

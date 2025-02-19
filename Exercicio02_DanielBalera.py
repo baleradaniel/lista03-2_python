@@ -17,17 +17,33 @@ peso = float(input('Insira o peso: '))
 
 if peso < 52:
     print('Inválido.')
-if peso >= 52 and peso < 65:
+
+elif peso >= 52 and peso < 65:
+    print(nome)
     print('Peso Pena.')
-if peso >= 65 and peso < 72:
+
+elif peso >= 65 and peso < 72:
+    print(nome)
     print('Peso Leve.')
-if peso >= 72 and peso < 79:
+
+elif peso >= 72 and peso < 79:
+    print(nome)
     print('Peso Ligeiro.')
-if peso >= 79 and peso < 86:
+
+elif peso >= 79 and peso < 86:
+    print(nome)
     print('Peso Meio-Médio.')
-if peso >= 86 and peso < 90:
+
+elif peso >= 86 and peso < 90:
+    print(nome)
     print('Peso Médio.')
-if peso >= 90 and peso < 100:
+
+elif peso >= 90 and peso < 100:
+    print(nome)
     print('Peso Meio-Pesado.')
-if peso >= 100:
+
+elif peso >= 100:
+    print(nome)
     print('Peso Pesado.')
+
+print('Daniel Balera')

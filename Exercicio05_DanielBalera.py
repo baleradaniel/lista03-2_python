@@ -9,9 +9,9 @@ preco = float(input('Insira o preço do produto: '))
 
 if preco <= 100:
     aplicacao = preco + preco*0.45
-    print('O preço de venda do produto é {:10f}'.format(aplicacao))
+    print('O preço de venda do produto é {:2f}'.format(aplicacao))
 else:
     aplicacao = preco + preco*0.35
-    print('O preço de venda do produto é {:1f}'.format(aplicacao))
+    print('O preço de venda do produto é {:2f}'.format(aplicacao))
 
 print('Daniel Balera')

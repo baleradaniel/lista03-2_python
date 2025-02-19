@@ -24,3 +24,5 @@ elif grau_aceitacao == 'AL' and valor >= 1000:
 
 else:
     print('Dado inválido!')
+
+print('Daniel Balera')
